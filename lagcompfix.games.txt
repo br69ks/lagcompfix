@@ -1,0 +1,54 @@
+"Games"
+{
+	"csgo"
+	{
+		"Offsets"
+		{
+			"fix2_bytes"
+			{
+				"linux" "29"
+			}
+		}
+
+		"Addresses"
+		{
+			"fix1"
+			{
+				"linux"
+				{
+					"signature" "fix1"
+					"read" "3"
+				}
+			}
+
+			"fix2"
+			{
+				"linux"
+				{
+					"signature" "fix2"
+				}
+			}
+		}
+
+		"Signatures"
+		{
+			"fix1"
+			{
+				"library" "server"
+				"linux" "\x0F\x2F\x05\x2A\x2A\x2A\x2A\x0F\x87\x2A\x2A\x2A\x2A\xF3\x0F\x10\x75\x10"
+			}
+
+			"fix2"
+			{
+				"library" "server"
+				"linux" "\xF3\x0F\x5C\xC2\xF3\x0F\x58\xC1\x0F\x54\xC3"
+			}
+			
+			"WantsLagCompensationOnEntity"
+			{
+				"library" "server"
+				"linux" "\x55\x89\xE5\x57\x56\x53\x83\xEC\x2C\x8B\x15\x2A\x2A\x2A\x2A\x8B\x75\x08"
+			}
+		}
+	}
+}
